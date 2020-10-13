@@ -9,8 +9,11 @@ namespace EfCoreConsole
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Green;            
-            //TestDataInjection();         //uncomment for data entry
+            Console.ForegroundColor = ConsoleColor.Green;
+            
+            //Test data
+            TestDataInjection();         //comment this after first run for data entry
+
             DisplayOrganisationHierarchy();            
         }
 
